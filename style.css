@@ -138,3 +138,12 @@ footer {
         margin: 5px;
     }
 }
+/* Keyboard Focus Accessibility */
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
